@@ -1,0 +1,11 @@
+<modules>
+    <!-- Module script for production -->
+    <module name="compileKotlin_without_java" type="java-production" outputDir="/Users/dumh/github/KotlincWithModelXmlDemo/outputDir">
+        <sources path="/Users/dumh/github/KotlincWithModelXmlDemo/src/main/kotlin/demo/kotlincdemo/Demo.kt"/>
+        <sources path="/Users/dumh/github/KotlincWithModelXmlDemo/src/main/kotlin/demo/kotlincdemo/Demo2.kt"/>
+        <!-- Java source roots -->
+        <javaSourceRoots path="/Users/dumh/github/KotlincWithModelXmlDemo/src/main/java"/>
+        <!-- Classpath -->
+        <classpath path="/Users/dumh/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.0.2-1/d82877d4faffe1f4acbc266b80b6d3a44cc6bddc/kotlin-stdlib-1.0.2-1.jar"/>
+    </module>
+</modules>
